@@ -1,0 +1,91 @@
+*
+body{
+   backdrop-filter: blur(6px);
+   background-image:url('./images/fLeaves.jfif');
+   background-position: relative;
+   background-blend-mode: blur(6px);
+   background-repeat: repeat;
+   align-items: center;
+   height: 100%;
+   width: 100%;
+   margin: 0;
+   padding:0;
+   font-family: 'Arial' ;
+}
+
+.fas{
+   color: rgba(141, 47, 230, 0.281);
+opacity:6 ;
+}
+
+h2{
+   font-family: 'Brush Script MT', cursive;
+   font-size:60px;
+}
+.container
+{
+   position: relative;
+   width: 1100px;
+   justify-content: center;
+   align-items: center;
+   padding: 0px;
+   display: flex;
+   flex-wrap: wrap;
+   margin-top: 10% ;
+}
+.container .card {
+   width: 600px;
+   position: relative;
+   height: 800px;
+   background: #45a8d6;
+   margin: 40px 20px;
+   padding: 30px 20px;
+   display: flex;
+   flex-direction: column;
+   box-shadow: 5px 10px #e6e6e6bd;
+   transition: 0.3s ease-in-out;
+   margin-top: 5%;
+}
+.container .card .imgBx{
+   position:relative;
+   width: 450PX;
+   height: 200px;
+   top: -80px;
+   left: 20px;
+   box-shadow: 0.5px 20px rbga (0,0,0,1,2);
+
+}
+
+.container  .card .imgBx img{
+   max-width: 100%;
+   border-radius: 15px;
+}
+
+.imgBx:hover img{
+   transform: scale(1.2);
+}
+*{
+margin: 0px;
+padding: 10px 10px;
+border: none;
+font-family: 'Ariel', sans-serif; 
+
+}
+
+
+ .button {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin:50px auto;
+    box-sizing: border-box;
+    font-size: 30px;
+    background-color:#b9aeae69 ;
+    padding: -1px;
+    position: bottom;
+    top: 1px;
+    right: 1px;
+    color: white ;
+    border-radius: 5px;
+
+}

@@ -1,0 +1,116 @@
+body{
+   
+    background-image:url('./images/download.jfif'); 
+    background-repeat: repeat;
+    font-family: 'Arial' ;
+ }
+
+ h1{
+    font-size: 40px;
+    align-self: center;
+    color: rgb(40, 42, 151);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+ }
+
+ 
+ h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style:normal;
+    font-size:25px;
+    color:rgb(12, 10, 10);
+    position: top;
+ }
+ 
+ h3{
+   text-align: center;
+   vertical-align: text-top;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style:normal;
+   font-size:15px;
+   color:rgb(12, 10, 10);
+   position: right;
+ }
+ img{ 
+   width: 200px;
+   height: 150px;
+
+ }
+ .container
+ {
+    position: relative;
+    width: 2100px;
+    justify-content: left; 
+    margin-left: 0cm;
+    padding: 1px;
+ 
+    flex-wrap: wrap-reverse;
+    margin-top: 10% ;
+ }
+ .container .card {
+    margin-left: 0ch;
+    width: 1500px;
+    position:right;
+    height: 200px;
+    background: rgb(175, 173, 172);
+     
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    border-color:#632a04;
+    margin-top: 0cm;
+ }
+ .container .card .imgBx{
+    
+    width: 250PX;
+    height: 200px;
+ }
+ .star {
+   display:flex;
+ }
+  .star a {
+     color: rgb(182, 125, 3);
+     object-position: bottom;
+     opacity: 15%;
+  }
+  #object-position{
+   object-position: 10px;
+  }
+  .star:hover a{
+    opacity:100%;
+  }
+ 
+ .container  .card .imgBx img{
+    max-width: 100%;
+   
+ }
+ 
+
+ *{
+ margin: 0cm;
+ padding: 0cm;
+ border: none;
+ font-family: 'Ariel', sans-serif; 
+ 
+ }
+
+ 
+  .button{
+    
+     justify-content:left;
+     align-items: center;
+     cursor: pointer;
+     margin:0cm;
+     box-sizing: border-box;
+     font-size: 25px;
+     background-color: rgb(40, 42, 151);
+     padding: 0px;
+     position: right;
+     top: 0px;
+     right: 0px;
+     color: rgb(255, 255, 255) ;
+     border-radius: 3px;
+ 
+ }
+ 
